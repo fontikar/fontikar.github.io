@@ -7,12 +7,18 @@ website:
   navbar:
     search: true
     left:
-      - text: "Home"
-        href: index.qmd
-      - about.qmd
       - blog.qmd
       - presos.qmd
       - research.qmd
+      - recipes.qmd
+    right: 
+      - icon: github
+        href: https://github.com/fontikar
+      - icon: twitter
+        href: https://twitter.com/fonti_kar
+      - icon: mastodon
+        href: https://mastodon.social/@fonti_kar
+       
 
 format:
   html:

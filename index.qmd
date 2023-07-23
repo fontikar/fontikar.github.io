@@ -1,5 +1,5 @@
 ---
-title: "Hi!"
+title: "Fonti Kar"
 ---
 
 ```{r, include=FALSE}
@@ -14,3 +14,8 @@ I am learning to make websites with Quarto! I can't wait to use this website to 
 ```{r, echo=FALSE}
 say("We're gonna have a whale of a time!")
 ```
+
+<!-- -   What I do now -->
+<!-- -   How I found myself here -->
+<!-- -   Masters  -->
+<!-- -   PhD -->

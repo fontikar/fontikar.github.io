@@ -1,8 +1,0 @@
----
-title: "About Me"
----
-
--   What I do now
--   How I found myself here
--   Masters 
--   PhD
