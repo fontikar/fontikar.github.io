@@ -1,11 +1,16 @@
 ---
-title: "website"
+title: "Hi!"
 ---
 
-This is a Quarto website.
+```{r, include=FALSE}
+library(emo)
+library(ohwhaley)
+```
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm Fonti `r ji("wave")`
 
-```{r}
-1 + 1
+I am learning to make websites with Quarto! I can't wait to use this website to share what I have been learning in R!
+
+```{r, echo=FALSE}
+say("We're gonna have a whale of a time!")
 ```

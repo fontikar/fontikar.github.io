@@ -2,18 +2,23 @@ project:
   type: website
 
 website:
-  title: "website"
+  title: "Fonti Kar"
   navbar:
+    search: true
     left:
-      - href: index.qmd
-        text: Home
+      - text: "Home"
+        href: index.qmd
       - about.qmd
+      - blog.qmd
+      - presos.qmd
+      - research.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: sketchy
     css: styles.css
     toc: true
 
-editor: visual
+editor: 
+  mode: source
 
