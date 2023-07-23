@@ -12,6 +12,8 @@ website:
       - research.qmd
       - recipes.qmd
     right: 
+      - text: CV
+        href: about.qmd
       - icon: github
         href: https://github.com/fontikar
       - icon: twitter

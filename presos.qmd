@@ -1,7 +1,8 @@
 ---
 title: "Presentations"
+listing:
+  contents: presos
+  sort: "date desc"
+  type: default
+  categories: true
 ---
-
-Here I will link to past presentations
-
-Perhaps title slide as thumbnails + link to recording if available
