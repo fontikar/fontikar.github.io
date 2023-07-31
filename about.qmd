@@ -48,7 +48,7 @@ Major in Biological Sciences and Statistics, University of Auckland
 [Atlas of Living Australia](https://labs.ala.org.au/about.html) / CSIRO
 
 **Research Software Developer** | Jan 2021 - Jan 2023  
-[Falster Lab](https://danielfalster.com/) / UNSW
+[Falster Lab](https://danielfalster.com/)  / UNSW
 
 **Research Assistant** | 2019   
 Bioanalytical Mass Spectrometry Facility / UNSW
