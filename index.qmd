@@ -1,21 +1,67 @@
 ---
 title: "Fonti Kar"
+image: "images/fonti_moss.jpg"
+about: 
+  template: trestles
+  image-shape: round
+  links:
+    - icon: envelope
+      href: "mailto:f.kar@unsw.edu.au"
+    - icon: twitter
+      href: "https://twitter.com/fonti_kar?lang=en"
+    - icon: github
+      url: "https://github.com/fontikar"
+    - icon: linkedin
+      href: "https://www.linkedin.com/in/fonti-kar/"
+    - icon: google
+      href: "https://scholar.google.com.au/citations?user=4hGqp6sAAAAJ&hl=en&inst=7289110936595769722"
 ---
 
-```{r, include=FALSE}
-library(emo)
-library(ohwhaley)
-```
+:::{#hero-heading}
 
-I'm Fonti `r ji("wave")`
+:::{.column-body-outset}
 
-I am learning to make websites with Quarto! I can't wait to use this website to share what I have been learning in R!
+## Education
 
-```{r, echo=FALSE}
-say("We're gonna have a whale of a time!")
-```
+**Ph. D.** | Jul 2016 – Apr 2021  
+School of Biological, Earth & Environmental Sciences, University of New South Wales  
+  * Thesis: *The Role of Developmental Temperature on Phenotypic Development and Evolution*
 
-<!-- -   What I do now -->
-<!-- -   How I found myself here -->
-<!-- -   Masters  -->
-<!-- -   PhD -->
+**M. Res** | Jan 2014 - Feb 2016  
+School of Biological Sciences, Macquarie University  
+  * Thesis: *Predictors of Social Dominance and its Role in Social Information Use* 
+
+**B. Sc** | Jul 2009 - May 2013  
+Major in Biological Sciences and Statistics, University of Auckland
+
+-----------------------------------------------------------------------------
+
+## Experience
+
+**Research Software Developer** | Jul 2023 - Present  
+[Falster Lab](https://danielfalster.com/) / UNSW
+
+**Analytics Manager** | Jun 2022 - Present  
+[Invertebrates Australia](https://invertebratesaustralia.org/)
+
+**Data Analyst** | Jun 2022 - Jun 2023  
+[Atlas of Living Australia](https://labs.ala.org.au/about.html) / CSIRO
+
+**Research Software Developer** | Jan 2021 - Jan 2023  
+[Falster Lab](https://danielfalster.com/)  / UNSW
+
+**Research Assistant** | 2019   
+Bioanalytical Mass Spectrometry Facility / UNSW
+
+**Teaching assistant** | 2018 - 2021  
+School of Biological, Earth & Environmental Sciences / UNSW 
+
+**Teaching assistant** | 2018   
+School of Biological Sciences / MQU 
+
+**Lab Manager + Research Assistant** | 2019   
+[Lizard Lab](https://whitinglab.com/) + [Noble Lab](http://nobledan.com/) / MQU
+
+:::
+
+:::
