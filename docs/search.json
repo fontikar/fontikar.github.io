@@ -7,6 +7,13 @@
     "text": "Here I will share what I did in my Masters and PhD and link to publications"
   },
   {
+    "objectID": "recipes.html",
+    "href": "recipes.html",
+    "title": "Recipes",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "presos.html",
     "href": "presos.html",
     "title": "Presentations",
@@ -28,27 +35,6 @@
     "text": "Ph. D. | Jul 2016 – Apr 2021\nSchool of Biological, Earth & Environmental Sciences, University of New South Wales\n* Thesis: The Role of Developmental Temperature on Phenotypic Development and Evolution\nM. Res | Jan 2014 - Feb 2016\nSchool of Biological Sciences, Macquarie University\n* Thesis: Predictors of Social Dominance and its Role in Social Information Use\nB. Sc | Jul 2009 - May 2013\nMajor in Biological Sciences and Statistics, University of Auckland\n\n\n\n\nResearch Software Developer | Jul 2023 - Present\nFalster Lab / UNSW\nAnalytics Manager | Jun 2022 - Present\nInvertebrates Australia\nData Analyst | Jun 2022 - Jun 2023\nAtlas of Living Australia / CSIRO\nResearch Software Developer | Jan 2021 - Jan 2023\nFalster Lab / UNSW\nResearch Assistant | 2019\nBioanalytical Mass Spectrometry Facility / UNSW\nTeaching assistant | 2018 - 2021\nSchool of Biological, Earth & Environmental Sciences / UNSW\nTeaching assistant | 2018\nSchool of Biological Sciences / MQU\nLab Manager + Research Assistant | 2019\nLizard Lab + Noble Lab / MQU"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "index.html#hi",
-    "href": "index.html#hi",
-    "title": "Fonti Kar",
-    "section": "",
-    "text": "I’m Fonti 👋\nI am learning to make websites with Quarto! I can’t wait to use this website to share what I have been learning in R!\n\n\n\n            ------ \n           We're gonna have a whale of a time! \n            ------ \n               \\   \n                \\  \n                 \\\n     .-'\n'--./ /     _.---.\n'-,  (__..-`       \\\n   \\          .     |\n    `,.__.   ,__.--/\n     '._/_.'___.-`"
-  },
-  {
-    "objectID": "recipes.html",
-    "href": "recipes.html",
-    "title": "Recipes",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Fonti Kar",
@@ -61,5 +47,12 @@
     "title": "Fonti Kar",
     "section": "",
     "text": "Research Software Developer | Jul 2023 - Present\nFalster Lab / UNSW\nAnalytics Manager | Jun 2022 - Present\nInvertebrates Australia\nData Analyst | Jun 2022 - Jun 2023\nAtlas of Living Australia / CSIRO\nResearch Software Developer | Jan 2021 - Jan 2023\nFalster Lab / UNSW\nResearch Assistant | 2019\nBioanalytical Mass Spectrometry Facility / UNSW\nTeaching assistant | 2018 - 2021\nSchool of Biological, Earth & Environmental Sciences / UNSW\nTeaching assistant | 2018\nSchool of Biological Sciences / MQU\nLab Manager + Research Assistant | 2019\nLizard Lab + Noble Lab / MQU"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
   }
 ]

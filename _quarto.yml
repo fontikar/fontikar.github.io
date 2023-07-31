@@ -6,13 +6,13 @@ website:
   title: "Fonti Kar"
   navbar:
     search: true
-    left:
-      - blog.qmd
-      - presos.qmd
-      - research.qmd
-      - recipes.qmd
+    # left:
+    #   - blog.qmd
+    #   - presos.qmd
+    #   - research.qmd
+    #   - recipes.qmd
     right: 
-      - text: CV
+      - text: About
         href: about.qmd
       - icon: github
         href: https://github.com/fontikar
