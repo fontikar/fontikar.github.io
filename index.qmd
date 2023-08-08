@@ -1,5 +1,5 @@
 ---
-title: "Fonti Kar"
+title: "Fonti"
 image: "images/fonti_moss.jpg"
 about: 
   template: trestles
@@ -7,6 +7,8 @@ about:
   links:
     - icon: envelope
       href: "mailto:f.kar@unsw.edu.au"
+    - icon: mastodon
+      href: "https://fosstodon.org/@fontikar"
     - icon: twitter
       href: "https://twitter.com/fonti_kar?lang=en"
     - icon: github
@@ -21,18 +23,9 @@ about:
 
 :::{.column-body-outset}
 
-## Education
+## Oh hello! 
 
-**Ph. D.** | Jul 2016 – Apr 2021  
-School of Biological, Earth & Environmental Sciences, University of New South Wales  
-  * Thesis: *The Role of Developmental Temperature on Phenotypic Development and Evolution*
-
-**M. Res** | Jan 2014 - Feb 2016  
-School of Biological Sciences, Macquarie University  
-  * Thesis: *Predictors of Social Dominance and its Role in Social Information Use* 
-
-**B. Sc** | Jul 2009 - May 2013  
-Major in Biological Sciences and Statistics, University of Auckland
+I'm Fonti and I am an evolutionary biologist wearing R developer shoes. I work with researchers and turn their ideas into accessible tools. I like to learn new things in R and sharing it with others. I am an organiser for [UNSWcodeRs](https://unsw-coders.netlify.app/) - a student and staff run R user community at the University of New South Wales.
 
 -----------------------------------------------------------------------------
 
@@ -53,14 +46,20 @@ Major in Biological Sciences and Statistics, University of Auckland
 **Research Assistant** | 2019   
 Bioanalytical Mass Spectrometry Facility / UNSW
 
-**Teaching assistant** | 2018 - 2021  
-School of Biological, Earth & Environmental Sciences / UNSW 
+-----------------------------------------------------------------------------
 
-**Teaching assistant** | 2018   
-School of Biological Sciences / MQU 
+## Education
 
-**Lab Manager + Research Assistant** | 2019   
-[Lizard Lab](https://whitinglab.com/) + [Noble Lab](http://nobledan.com/) / MQU
+**Ph. D.** | Jul 2016 – Apr 2021  
+School of Biological, Earth & Environmental Sciences, University of New South Wales  
+  * Thesis: *The Role of Developmental Temperature on Phenotypic Development and Evolution*
+
+**M. Res** | Jan 2014 - Feb 2016  
+School of Biological Sciences, Macquarie University  
+  * Thesis: *Predictors of Social Dominance and its Role in Social Information Use* 
+
+**B. Sc** | Jul 2009 - May 2013  
+Major in Biological Sciences and Statistics, University of Auckland
 
 :::
 
