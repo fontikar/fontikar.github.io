@@ -6,18 +6,9 @@ website:
   title: "Fonti Kar"
   navbar:
     search: true
-    right:
-      - blog.qmd
     #   - presos.qmd
     #   - research.qmd
     #   - recipes.qmd
-    # right: 
-    #  - icon: github
-    #    href: https://github.com/fontikar
-    #  - icon: twitter
-    #    href: https://twitter.com/fonti_kar
-    #  - icon: mastodon
-    #    href: https://fosstodon.org/@fontikar
 
        
 
