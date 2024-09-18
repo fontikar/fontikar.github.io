@@ -6,8 +6,8 @@ website:
   title: "Fonti Kar"
   navbar:
     search: true
-    # left:
-    #   - blog.qmd
+    right:
+      - blog.qmd
     #   - presos.qmd
     #   - research.qmd
     #   - recipes.qmd

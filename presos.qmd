@@ -1,8 +1,0 @@
----
-title: "Presentations"
-listing:
-  contents: presos
-  sort: "date desc"
-  type: default
-  categories: true
----
