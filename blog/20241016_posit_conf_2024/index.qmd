@@ -1,9 +1,12 @@
 ---
 title: "posit::conf(2024)"
-draft: true
+categories:
+  - conferences
+  - community
+css: styles.css
 ---
 
-### ![Main stage at posit::conf(2024)](IMG_3551.jpeg){fig-align="center" width="50%"}
+![Main stage at posit::conf(2024)](IMG_3551.jpeg){fig-align="center" width="50%"}
 
 ### Preamble
 
@@ -29,7 +32,7 @@ Being an R programmer can be a physically isolating experience. I go to work, I 
 
 What was very apparent to me at posit::conf was that the names I have become familiar with over the years are all here in three-dimension. [Hadley Wickham](https://hadley.nz/), [Jenny Bryan](https://jennybryan.org/), [Julie Lowndes](https://jules32.github.io/) and so many more! I felt a great sense of gratitude and maybe a bit of fan-girling for their contributions to the community
 
-![Joe Cheng've live demon on how integrate an LLM into a shiny app](IMG_3541.jpeg){fig-align="center" width="80%"}
+![Joe Cheng's live demo on how integrate an LLM into a shiny app](IMG_3541.jpeg){fig-align="center" width="80%"}
 
 Importantly, this gratitude had turned into motivation of wanting to contribute back to the community. The size of the contribution is not important here, it's the act of doing itself is what is key.
 

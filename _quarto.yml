@@ -23,3 +23,5 @@ format:
 editor: 
   mode: source
 
+  drafts:
+    draft-mode: visible
