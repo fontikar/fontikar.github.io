@@ -6,6 +6,8 @@ categories:
 format:
   html:
     css: styles.css
+draft: true
+draft-mode: visible
 ---
 
 ![Main stage at posit::conf(2024)](IMG_3551.jpeg){fig-align="center" width="50%"}
@@ -16,11 +18,11 @@ If you told me 15 years ago when I was learning how to program in R that I would
 
 Nearly two months ago, I attended my first posit::conf(2024) as an Opportunity Scholar[^1]. I didn’t know what to expect. I was intimidated because I didn’t know many people who were attending but I’ve heard great things about the conference itself and wanted some find some career direction[^2]
 
-This post serves as my recap[^3]()of posit::conf and what really stuck with me since. If you are reading this and I attended the conference before, thank you for making the it awesome 💜. If you have never been to posit::conf, I hope you find my experience insightful and encouraging to go to the next one. Check out the posts by [Stefanie Butland]() and [Jen Richmond](https://jennyrichmond.netlify.app/blog/2024-10-03-what-i-learned-at-positconf/) to hear about their conference experience.
+This post serves as my recap[^3] of posit::conf and what really stuck with me since. If you are reading this and I attended the conference before, thank you for making the it awesome 💜. If you have never been to posit::conf, I hope you find my experience insightful and encouraging to go to the next one. Check out the posts by [Stefanie Butland]() and [Jen Richmond](https://jennyrichmond.netlify.app/blog/2024-10-03-what-i-learned-at-positconf/) to hear about their conference experience.
 
 ### The magic of open source communities
 
-What was a sharp contrast to my previous conference experiences^2^ is that at posit::conf, there is this invisible, but universally felt, sense of shared love and pride for all the open source tools we use everyday.
+What was a sharp contrast to my previous conference experiences[^2] is that at posit::conf, there is this invisible, but universally felt, sense of shared love and pride for all the open source tools we use everyday.
 
 Conference small talk is usually a dreaded activity, but because of this common thread that connected us, it was so easy to flow from awkward introductions to more insightful discussions. "What's your favourite package", "What kinda R do you do?", "What is the coolest hex you’ve found?” were some really simple ways to get the conservations going.
 
