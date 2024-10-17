@@ -9,8 +9,6 @@ date: "18/10/2024"
 format:
   html:
     css: style.css
-draft: true
-draft-mode: visible
 comments:
   utterances:
     repo: fontikar/fontikar.github.io
