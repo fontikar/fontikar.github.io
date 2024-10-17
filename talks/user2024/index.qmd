@@ -1,10 +1,9 @@
 ---
 title: "Why we should build silly things in R?"
 categories:
-  - conferences
   - learning
-date: "18/10/2024"
 image: user.png
+date: "18/10/2024"
 comments:
   utterances:
     repo: fontikar/fontikar.github.io

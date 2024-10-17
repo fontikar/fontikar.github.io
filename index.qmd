@@ -25,13 +25,13 @@ about:
 
 ## Oh hello! 
 
-I'm Fonti and I am an evolutionary biologist wearing R developer shoes. I work with researchers and turn their ideas into accessible tools. I like to learn new things in R and sharing it with others. I am one of the organiser for [R-Ladies Sydney Chapter](https://rladiessydney.org/) and founder of [UNSWcodeRs](https://unsw-coders.netlify.app/) - a student and staff run R user community at the University of New South Wales.
+I'm Fonti and I am an evolutionary biologist wearing R developer shoes. I work with researchers and turn their ideas into accessible tools. I like to learn new things in R and sharing it with others. I am one of the organisers for the [R-Ladies Sydney Chapter](https://rladiessydney.org/) and founder of [UNSWcodeRs](https://unsw-coders.netlify.app/) - a student and staff run R user community at the University of New South Wales.
 
 -----------------------------------------------------------------------------
 
 ## Experience
 
-**Research Software Developer** | Jul 2023 - Present  
+**R Tool Developer** | Jul 2023 - Present  
 [Falster Lab](https://danielfalster.com/) / UNSW
 
 **Analytics Manager** | Jun 2022 - Present  
