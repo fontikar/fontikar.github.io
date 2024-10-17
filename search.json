@@ -1,37 +1,65 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
     "section": "",
-    "text": "Here I will share what I did in my Masters and PhD and link to publications"
-  },
-  {
-    "objectID": "presos.html",
-    "href": "presos.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Here I will link to past presentations\nPerhaps title slide as thumbnails + link to recording if available"
+    "text": "posit::conf(2024)\n\n\n\n\n\n\nconferences\n\n\ncommunity\n\n\n\nIf you told me 15 years ago when I was learning how to program in R that I would be attending posit::conf(2024) - a 3 day conference that celebrates data science and its community, I probably wouldn’t have believed you \n\n\n\n\n\nJun 10, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi!",
+    "title": "Fonti",
     "section": "",
-    "text": "I’m Fonti 👋\nI am learning to make websites with Quarto! I can’t wait to use this website to share what I have been learning in R!\n\n\n\n            ------ \n           We're gonna have a whale of a time! \n            ------ \n               \\   \n                \\  \n                 \\\n     .-'\n'--./ /     _.---.\n'-,  (__..-`       \\\n   \\          .     |\n    `,.__.   ,__.--/\n     '._/_.'___.-`"
+    "text": "I’m Fonti and I am an evolutionary biologist wearing R developer shoes. I work with researchers and turn their ideas into accessible tools. I like to learn new things in R and sharing it with others. I am one of the organiser for R-Ladies Sydney Chapter and founder of UNSWcodeRs - a student and staff run R user community at the University of New South Wales.\n\n\n\n\nResearch Software Developer | Jul 2023 - Present\nFalster Lab / UNSW\nAnalytics Manager | Jun 2022 - Present\nInvertebrates Australia\nData Analyst | Jun 2022 - Jun 2023\nAtlas of Living Australia / CSIRO\nResearch Software Developer | Jan 2021 - Jan 2023\nFalster Lab / UNSW\nResearch Assistant | 2019\nBioanalytical Mass Spectrometry Facility / UNSW\n\n\n\n\nPh. D. | Jul 2016 – Apr 2021\nSchool of Biological, Earth & Environmental Sciences, University of New South Wales\n* Thesis: The Role of Developmental Temperature on Phenotypic Development and Evolution\nM. Res | Jan 2014 - Feb 2016\nSchool of Biological Sciences, Macquarie University\n* Thesis: Predictors of Social Dominance and its Role in Social Information Use\nB. Sc | Jul 2009 - May 2013\nMajor in Biological Sciences and Statistics, University of Auckland"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "index.html#oh-hello",
+    "href": "index.html#oh-hello",
+    "title": "Fonti",
     "section": "",
-    "text": "What I do now\nHow I found myself here\nMasters\nPhD"
+    "text": "I’m Fonti and I am an evolutionary biologist wearing R developer shoes. I work with researchers and turn their ideas into accessible tools. I like to learn new things in R and sharing it with others. I am one of the organiser for R-Ladies Sydney Chapter and founder of UNSWcodeRs - a student and staff run R user community at the University of New South Wales."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Fonti",
     "section": "",
-    "text": "Here is where I would share things I learned in R :)"
+    "text": "Research Software Developer | Jul 2023 - Present\nFalster Lab / UNSW\nAnalytics Manager | Jun 2022 - Present\nInvertebrates Australia\nData Analyst | Jun 2022 - Jun 2023\nAtlas of Living Australia / CSIRO\nResearch Software Developer | Jan 2021 - Jan 2023\nFalster Lab / UNSW\nResearch Assistant | 2019\nBioanalytical Mass Spectrometry Facility / UNSW"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Fonti",
+    "section": "",
+    "text": "Ph. D. | Jul 2016 – Apr 2021\nSchool of Biological, Earth & Environmental Sciences, University of New South Wales\n* Thesis: The Role of Developmental Temperature on Phenotypic Development and Evolution\nM. Res | Jan 2014 - Feb 2016\nSchool of Biological Sciences, Macquarie University\n* Thesis: Predictors of Social Dominance and its Role in Social Information Use\nB. Sc | Jul 2009 - May 2013\nMajor in Biological Sciences and Statistics, University of Auckland"
+  },
+  {
+    "objectID": "talks/user2024/index.html",
+    "href": "talks/user2024/index.html",
+    "title": "Why we should build silly things in R?",
+    "section": "",
+    "text": "About the conference\nThe annual useR! conference, organized by R community volunteers, and supported by the R Foundation showcases applications and developments of R Software. It also features updated R packages, highlighting the boundless functionality provided by community contributions.\n\n\nAbstract\nTalk format: 5 minute lightning\nData science is an ever-evolving industry that requires constant upskilling. The pressures to learn the latest tools for project deliverables or to enhance one’s CV can be a hindrance to effective learning. Here, I argue for the need for silliness when developing new R skills. Learning is far more enjoyable and conducive to retention and application when we take away the seriousness of upskilling. I will share my experience in creating ohwhaley - a toy R package which serves as a tool for learning package development and upskilling new learners. I hope attendees will walk away feeling more light-hearted and empowered to build silly things in R to reinvigorate their curiosity for R knowledge.\n Slides"
+  },
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Why we should build silly things in R?\n\n\n\nconferences\n\n\nlearning\n\n\n\n\n\n\n\n\n\n\nJun 10, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posit_conf_2024/index.html",
+    "href": "blog/posit_conf_2024/index.html",
+    "title": "posit::conf(2024)",
+    "section": "",
+    "text": "Main stage at posit::conf(2024)"
+  },
+  {
+    "objectID": "blog/posit_conf_2024/index.html#footnotes",
+    "href": "blog/posit_conf_2024/index.html#footnotes",
+    "title": "posit::conf(2024)",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe Opportunity Scholar program is one of Posit’s initiatives to celebrate and support folks from groups that are not well represented in the data science community to attend posit::conf. Attending a conference is very costly - there are many considerations, time from work, child/dependent care, travel, accommodation. If it wasn’t for the program, I would not have been able to attend posit::conf. I highly recommend putting an application in.↩︎\nI finished my PhD in 2020 and found myself in a job dedicated to working with researchers and building R packages and Shiny applications. I’m technically a “research software engineer” but to me that title doesn’t sit right. This role been an amazing opportunity to deeply learn about software engineering practices but as a biologist at heart, I desperately missed answering questions with my data skills. Being in somewhat of a career crossroad/existential crisis, it was important for me to attend posit::conf. I wanted to meet other kindred spirits that shared the enthusiasm I have for everything I know about R and see what they are doing.↩︎\nIt goes without saying, but I am going to say it anyway, my perspective is reflective of my experience so it is only one tiny slice of many experiences of posit::conf.↩︎\nBy training, I am an evolutionary biologist and ecologist. The conferences I’ve been to were less about the community and more about showcasing your own research and establishing your own niche. Some meetings were more friendly than others and generally, hierarchy is more apparent which can feel a bit unwelcoming for newcomers↩︎"
   }
 ]
