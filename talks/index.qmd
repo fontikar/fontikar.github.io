@@ -2,6 +2,6 @@
 title: "Talks"
 listing:
   sort: "date desc"
-  type: default
+  type: grid
   categories: true
 ---

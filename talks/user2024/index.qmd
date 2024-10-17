@@ -4,6 +4,7 @@ categories:
   - conferences
   - learning
 date: "18/10/2024"
+image: user.png
 comments:
   utterances:
     repo: fontikar/fontikar.github.io

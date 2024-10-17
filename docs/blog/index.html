@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -169,7 +169,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="community">community <span class="quarto-category-count">(1)</span></div><div class="category" data-category="conferences">conferences <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -198,7 +198,39 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="conferences,community" data-listing-date-sort="1749477600000" data-listing-file-modified-sort="1729203795436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="970">
+<div class="thumbnail">
+<p><a href="../blog/posit_conf_2024/index.html" class="no-external"></a></p><a href="../blog/posit_conf_2024/index.html" class="no-external">
+<p class="card-img-top"><img src="posit_conf_2024/IMG_3551.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../blog/posit_conf_2024/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../blog/posit_conf_2024/index.html" class="no-external">posit::conf(2024)</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../blog/posit_conf_2024/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('conferences'); return false;">
+conferences
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('community'); return false;">
+community
+</div>
+</div>
+<div class="listing-description">
+<a href="../blog/posit_conf_2024/index.html" class="no-external">If you told me 15 years ago when I was learning how to program in R that I would be attending <span>posit::conf(2024)</span> - a 3 day conference that celebrates data science and its community, I probably wouldn’t have believed you </a>
+</div>
+</div>
+<div class="metadata">
+<a href="../blog/posit_conf_2024/index.html" class="no-external">
+<div class="listing-date">
+Jun 10, 2025
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
