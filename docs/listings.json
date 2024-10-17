@@ -1,8 +1,10 @@
 [
   {
     "listing": "/blog/index.html",
-    "items": [
-      "/blog/posit_conf_2024/index.html"
-    ]
+    "items": []
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": []
   }
 ]
