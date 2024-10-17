@@ -23,7 +23,7 @@ This post serves as my recap[^3] of posit::conf and what really stuck with me si
 
 ### The magic of open source communities
 
-What was a sharp contrast to my previous conference experiences[^2] is that at posit::conf, there is this invisible, but universally felt, sense of shared love and pride for all the open source tools we use everyday.
+What was a sharp contrast to my previous conference experiences[^4] is that at posit::conf, there is this invisible, but universally felt, sense of shared love and pride for all the open source tools we use everyday.
 
 Conference small talk is usually a dreaded activity, but because of this common thread that connected us, it was so easy to flow from awkward introductions to more insightful discussions. "What's your favourite package", "What kinda R do you do?", "What is the coolest hex you’ve found?” were some really simple ways to get the conservations going.
 
@@ -72,4 +72,4 @@ Your contributions, no matter how small or insignificant you think it may be, ca
 
 [^3]: It goes without saying, but I am going to say it anyway, my perspective is reflective of my experience so it is only one tiny slice of many experiences of posit::conf.
 
-[^4]: By training, I am an evolutionary biologist and ecologist. The conferences I've been to were less about the community and more about showcasing your own research and establishing your own niche. Some were more friendly than others and the hierarchy is more apparent which can feel a bit unwelcoming.
+[^4]: By training, I am an evolutionary biologist and ecologist. The conferences I've been to were less about the community and more about showcasing your own research and establishing your own niche. Some meetings were more friendly than others and generally, hierarchy is more apparent which can feel a bit unwelcoming for newcomers
