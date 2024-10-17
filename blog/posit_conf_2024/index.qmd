@@ -8,7 +8,7 @@ categories:
 date: "18/10/2024"
 format:
   html:
-    css: styles.css
+    css: style.css
 draft: true
 draft-mode: visible
 ---
