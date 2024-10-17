@@ -11,6 +11,9 @@ format:
     css: style.css
 draft: true
 draft-mode: visible
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
 ---
 
 ![Main stage at posit::conf(2024)](IMG_3551.jpeg){fig-align="center" width="50%"}
