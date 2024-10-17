@@ -3,7 +3,9 @@ title: "posit::conf(2024)"
 categories:
   - conferences
   - community
-css: styles.css
+format:
+  html:
+    css: styles.css
 ---
 
 ![Main stage at posit::conf(2024)](IMG_3551.jpeg){fig-align="center" width="50%"}
