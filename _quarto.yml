@@ -27,3 +27,6 @@ editor:
     draft-mode: visible
     
 date-format: DD MMM YYYY
+
+website:
+  google-analytics: "G-85GWJNB5L8"
