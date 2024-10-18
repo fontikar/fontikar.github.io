@@ -13,6 +13,7 @@ website:
         text: Talks
       # - href: projects/index.qmd
       #   text: Projects
+    google-analytics: "G-85GWJNB5L8"
 
 format:
   html:
@@ -22,11 +23,7 @@ format:
 
 editor: 
   mode: source
-
   drafts:
     draft-mode: visible
     
 date-format: DD MMM YYYY
-
-website:
-  google-analytics: "G-85GWJNB5L8"
