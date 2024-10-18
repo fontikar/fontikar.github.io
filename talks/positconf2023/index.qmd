@@ -1,0 +1,20 @@
+---
+title: "Field guide to writing your first R package"
+categories:
+  - learning
+image: positconf2023.png
+date: "20/09/2023"
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+---
+
+![](positconf-banner.png)
+
+### Abstract
+
+I am a biologist wearing R package developer shoes. I recall writing my first package was an intimidating task. Here, I will share the parallels between package dev and biology that helped me through process. Like a food web, every file has a unique role and is interconnected with other components. Experimenting with one will naturally result in change in another. Like the internal physiology of our bodies, routine testing ensures the package is in perfect equilibrium with its environment. Much like the forces that promote species adaptation, addressing bugs improves the functionality of the package. I hope sharing my perspective will help others see package development as wonderful as the natural world and dispel any hesitation to start!
+
+{{< video https://www.youtube.com/watch?v=-bzgFg_bZXM&ab_channel=PositPBC >}}
+
+{{< downloadthis posit-conf-2023-field-guide-to-writing-your-first-R-package.pdf dname=posit-conf-2023-field-guide-to-writing-your-first-R-package label="Slides">}}

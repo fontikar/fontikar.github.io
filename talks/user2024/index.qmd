@@ -11,11 +11,6 @@ comments:
 
 ![](user-banner.png)
 
-
-### About the conference
-
-The annual useR! conference, organized by R community volunteers, and supported by the R Foundation showcases applications and developments of R Software. It also features updated R packages, highlighting the boundless functionality provided by community contributions. 
-
 ### Abstract
 
 Talk format: 5 minute lightning 
