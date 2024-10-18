@@ -13,7 +13,8 @@ website:
         text: Talks
       # - href: projects/index.qmd
       #   text: Projects
-    google-analytics: "G-85GWJNB5L8"
+    google-analytics: 
+      tracking-id: "G-85GWJNB5L8"
 
 format:
   html:
