@@ -2,26 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fontikar.github.io/blog/index.html</loc>
-    <lastmod>2024-10-18T00:39:19.130Z</lastmod>
+    <lastmod>2024-10-18T00:59:09.532Z</lastmod>
   </url>
   <url>
     <loc>https://fontikar.github.io/index.html</loc>
-    <lastmod>2024-10-18T00:39:19.315Z</lastmod>
+    <lastmod>2024-10-18T00:59:09.736Z</lastmod>
   </url>
   <url>
-    <loc>https://fontikar.github.io/talks/positconf2023/index.html</loc>
-    <lastmod>2024-10-18T00:39:19.316Z</lastmod>
+    <loc>https://fontikar.github.io/talks/wids2024/index.html</loc>
+    <lastmod>2024-10-18T00:59:09.804Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/talks/wombat2024/index.html</loc>
+    <lastmod>2024-10-18T00:59:09.815Z</lastmod>
   </url>
   <url>
     <loc>https://fontikar.github.io/talks/user2024/index.html</loc>
-    <lastmod>2024-10-18T00:39:19.333Z</lastmod>
+    <lastmod>2024-10-18T00:59:09.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/talks/positconf2023/index.html</loc>
+    <lastmod>2024-10-18T00:59:09.737Z</lastmod>
   </url>
   <url>
     <loc>https://fontikar.github.io/talks/index.html</loc>
-    <lastmod>2024-10-18T00:39:19.316Z</lastmod>
+    <lastmod>2024-10-18T00:59:09.737Z</lastmod>
   </url>
   <url>
     <loc>https://fontikar.github.io/blog/posit_conf_2024/index.html</loc>
-    <lastmod>2024-10-18T00:39:19.153Z</lastmod>
+    <lastmod>2024-10-18T00:59:09.555Z</lastmod>
   </url>
 </urlset>

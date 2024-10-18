@@ -8,7 +8,9 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/wombat2024/index.html",
       "/talks/user2024/index.html",
+      "/talks/wids2024/index.html",
       "/talks/positconf2023/index.html"
     ]
   }
