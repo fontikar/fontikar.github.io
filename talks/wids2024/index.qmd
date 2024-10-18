@@ -1,0 +1,19 @@
+---
+title: "I'd never thought I'd be a data scientist"
+categories:
+  - career
+image: wids-dsn.png
+date: 2024-03-19
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+---
+
+### About 
+
+As part of International Women's Day 2024 celebrations, the ADSN introduced you to Australia's Rising Stars in Data Science. I was invited to join a cohort of 25 women to share our story and to inspire the next generation of young scientists and data scientists and show there is a place for gender diversity, equity, and inclusion in STEM.
+
+{{< video https://www.youtube.com/watch?v=c3dp5joR3CA&ab_channel=AustralianDataScienceNetwork >}}
+
+
+{{< downloadthis wids2024-fonti-kar.pdf dname=wids2024-fonti-kar label="Slides">}}

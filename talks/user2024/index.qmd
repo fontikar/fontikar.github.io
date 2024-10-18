@@ -1,9 +1,10 @@
 ---
-title: "Why we should build silly things in R?"
+title: "Why build silly things in R?"
 categories:
   - learning
+  - r package
 image: user.png
-date: "18/10/2024"
+date: 2024-07-09
 comments:
   utterances:
     repo: fontikar/fontikar.github.io

@@ -2,8 +2,9 @@
 title: "Field guide to writing your first R package"
 categories:
   - learning
+  - r package
 image: positconf2023.png
-date: "20/09/2023"
+date: 2023-09-20
 comments:
   utterances:
     repo: fontikar/fontikar.github.io
