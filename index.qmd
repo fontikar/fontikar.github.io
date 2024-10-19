@@ -31,7 +31,7 @@ I'm Fonti and I am an evolutionary biologist wearing R developer shoes. I work w
 
 ## Experience
 
-**R Tool Developer** | Jul 2023 - Present  
+**R Tool Developer** | Jan 2021 - Present  
 [Falster Lab](https://danielfalster.com/) / UNSW
 
 **Analytics Manager** | Jun 2022 - Present  
@@ -39,9 +39,6 @@ I'm Fonti and I am an evolutionary biologist wearing R developer shoes. I work w
 
 **Data Analyst** | Jun 2022 - Jun 2023  
 [Atlas of Living Australia](https://labs.ala.org.au/about.html) / CSIRO
-
-**Research Software Developer** | Jan 2021 - Jan 2023  
-[Falster Lab](https://danielfalster.com/)  / UNSW
 
 -----------------------------------------------------------------------------
 
