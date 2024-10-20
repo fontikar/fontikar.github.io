@@ -1,0 +1,25 @@
+---
+title: "{APCalign}"
+subtitle: "Resolving Plant Taxon Names Using the Australian Plant Census"
+categories:
+  - plants
+  - taxonomy
+  - r package
+image: APCalign_hex.png
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+draft: true
+draft-mode: visible
+---
+
+### {APCalign}
+
+The process of resolving taxon names is necessary when working with biodiversity data. 'APCalign' uses the [Australian Plant Census]() (APC) and the [Australian Plant Name Index]() (APNI) to align and update plant taxon names to current, accepted standards. 'APCalign' also supplies information about the established status of plant taxa across different states/territories.
+
+Learn more about the database from the published research article in Journal of Australian Botany
+
+
+<!-- A button for the repo -->
+
+

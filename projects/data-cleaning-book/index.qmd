@@ -1,0 +1,23 @@
+---
+title: "Atlas of Living Australia Data Cleaning Book"
+subtitle: "A Quarto book to guide learners on how to clean their biodiversity data"
+categories:
+  - citizen science
+  - biodiversity
+  - quarto
+  - workflow
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+draft: true
+draft-mode: visible
+---
+
+### Atlas of Living Australia Data Cleaning Book
+
+Check out the book [here]()
+
+
+<!-- A button for the repo -->
+
+

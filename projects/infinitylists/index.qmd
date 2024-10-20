@@ -1,0 +1,29 @@
+---
+title: "{infinitylists}"
+subtitle: "A Shiny R package for Generating Place-Based Species Lists for Australian Plants"
+categories:
+  - plants
+  - citizen science
+  - biodiversity
+  - taxonomy
+  - r package
+image: infinitylists_hex.png
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+draft: true
+draft-mode: visible
+---
+
+### {infinitylists}
+
+This Shiny application and R package allows users to extract plant occurrence data from the Atlas of Living Australia and generate a species list for any defined area in Australia. All records associated with either a physical voucher (stored in Australian herbaria) or a photographic voucher (stored in iNaturalist) are extracted. For each species within the defined area, the application will return voucher type, number of vouchers, date of the most recent voucher, spatial coordinates, voucher location, and the voucher collector. Records are displayed both in a table and on a map, and can be exported
+
+Learn more about the database from the [preprint]().
+
+Check out the app [here]()
+
+
+<!-- A button for the repo -->
+
+

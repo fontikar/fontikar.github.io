@@ -11,8 +11,8 @@ website:
         text: Blog
       - href: talks/index.qmd
         text: Talks
-      # - href: projects/index.qmd
-      #   text: Projects
+      - href: projects/index.qmd
+        text: Projects
   google-analytics: "G-85GWJNB5L8"
 
 format:

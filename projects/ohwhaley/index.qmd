@@ -1,0 +1,29 @@
+---
+title: "{ohwhaley}"
+subtitle: "A toy package that delivers whale-seque puns"
+categories:
+  - r package
+  - silly
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+draft: true
+draft-mode: visible
+---
+
+### {ohwhaley}
+
+Bored? Need a pick me up? Say no more. 
+{ohwhaley} is here to provide some whaley gentle entertainment in R.
+
+### Install
+
+### Quick Demo
+
+
+
+What to learn how to build an R package? Learn to recreate {ohwhaley} with me [here]()
+
+<!-- A button for the repo -->
+
+

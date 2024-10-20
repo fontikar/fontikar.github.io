@@ -1,0 +1,8 @@
+---
+title: "Projects"
+listing:
+  sort: "date desc"
+  type: grid
+  categories: true
+  image-height: "7"
+---

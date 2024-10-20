@@ -1,0 +1,22 @@
+---
+title: "Atlas of Living Australia Labs Blog Post"
+subtitle: "How-to on generating spatial polygons for conservation mapping"
+categories:
+  - citizen science
+  - biodiversity
+  - quarto
+  - workflow
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+draft: true
+draft-mode: visible
+---
+
+### Atlas of Living Australia Labs Blog Post
+
+Check out the post [here]()
+
+<!-- A button for the repo -->
+
+

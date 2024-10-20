@@ -1,0 +1,22 @@
+---
+title: "Mygalomorphae Spider 'Hotspots' in Australia"
+subtitle: "Reproducible workflow for an endemsim analysis"
+categories:
+  - citizen science
+  - biodiversity
+  - quarto
+  - workflow
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+draft: true
+draft-mode: visible
+---
+
+### Mygalomorphae Spider 'Hotspots' in Australia
+
+Check out the [quarto book]()
+
+<!-- A button for the repo -->
+
+

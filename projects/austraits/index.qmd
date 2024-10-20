@@ -1,0 +1,30 @@
+---
+title: "{austraits}"
+subtitle: "R package to the AusTraits Traits Database of Australian Plants"
+categories:
+  - plants
+  - biodiversity
+  - r package
+  - shiny
+image: austraits_hex.png
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+draft: true
+draft-mode: visible
+---
+
+### {austraits}
+
+This R package serves as an interface to accessing, wrangling and visualising the AusTraits Traits Database of Australian Plants. The aim is to make it easier for researchers to retrieve the data they need answer questions about plant trait ecology. 
+
+Learn more about the database from the published [research article]() in Scientific Data
+
+
+<!-- A button for the repo -->
+
+### Collaborators
+
+<!-- Circles of faces of collaborators and linking to their website -->
+
+
