@@ -9,13 +9,13 @@ about:
       href: "mailto:f.kar@unsw.edu.au"
     - icon: mastodon
       href: "https://fosstodon.org/@fontikar"
-    - icon: twitter
-      href: "https://twitter.com/fonti_kar?lang=en"
+    - text: "{{< fa face-smile >}} Bluesky"
+      href: "https://bsky.app/profile/fontikar.bsky.social"
     - icon: github
       url: "https://github.com/fontikar"
     - icon: linkedin
       href: "https://www.linkedin.com/in/fonti-kar/"
-    - icon: google
+    - text: "{{< ai google-scholar >}}"
       href: "https://scholar.google.com.au/citations?user=4hGqp6sAAAAJ&hl=en&inst=7289110936595769722"
 ---
 
