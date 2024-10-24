@@ -15,7 +15,7 @@ about:
       url: "https://github.com/fontikar"
     - icon: linkedin
       href: "https://www.linkedin.com/in/fonti-kar/"
-    - text: "{{< ai google-scholar >}}"
+    - text: "{{< ai google-scholar>}} Google Scholar"
       href: "https://scholar.google.com.au/citations?user=4hGqp6sAAAAJ&hl=en&inst=7289110936595769722"
 ---
 
