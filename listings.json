@@ -6,6 +6,10 @@
     ]
   },
   {
+    "listing": "/projects/index.html",
+    "items": []
+  },
+  {
     "listing": "/talks/index.html",
     "items": [
       "/talks/wombat2024/index.html",
