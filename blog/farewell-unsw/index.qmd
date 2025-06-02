@@ -1,0 +1,67 @@
+---
+title: "An ode to the forest"
+description: |
+  In the flurry of fixed termed contracts, close-knit teams and solving problems together, something magical happens 💫
+categories:
+  - life update
+  - academia
+date: 2025-05-02
+format: 
+  html:
+    css: style.css
+comments:
+  utterances:
+    repo: fontikar/fontikar.github.io
+---
+
+![Some Falster Lab members at our writing retreat at Smith's Lake Research station](Falster-lab.png){fig-align="center"}
+
+Last week, I packed up my desk at [UNSW](https://www.unsw.edu.au/) - my stomping grounds since 2016. I have been working here for the past four years and before that, I was doing my PhD in Evolutionary Biology. Despite being an infrequent blogger, I want to spend a few moments celebrating this chapter and reflecting on my experiences.
+
+I joined the [Falster Lab](https://danielfalster.com/members/) right out of my PhD when the world was still quite uncertain and very much confined by COVID-19. I came out of my candidature feeling a jaded, lost and unsure what I wanted to do next. I was particularly excited about this role because it was different to anything I've done in that it was *all* R programming. My job was to build R packages with researchers to best practices and share knowledge on how to build/maintain their software. I thought this was really cool, I've always had an inordinate fondness for R programming and this felt like an opportunity to see where that would take me. 👩‍💻
+
+In the beginning, I didn't really know what to call myself. A postdoc? A research software engineer? A data scientist? These days, I care less about my title and focus on what I do, which is somewhere between "I build things in R", "I like making research go smoothly" and "I'm a big fan of open source". 🙋‍♀️
+
+Over the past four years, I got to work with a lot of academics from various habitats. Ranging from Psychology, Astrophysics, Climate Science to Ecology. Academics are a unique and delightful species. They are contagiously passionate, meticulous and highly competent. It may be difficult to spot them in the wild, but when you have their full attention, they are incredibly effective and wonderful collaborators. 
+
+### AusTraits tools
+
+![AusTraits tools and other software I've contributed to](IMG_5712.png){width=50%}
+
+I worked with a close knit team of plant ecologists on several projects that I've very proud of. I took the lead with maintaining the [{austraits} R package](https://github.com/traitecoevo/austraits). Our team wanted to create a nice experience for an R user to access the [Australian Plant Traits database](https://austraits.org/) and easily extract the relevant bits of it for their own use. This was a fun project, it taught me a lot about unit testing across an evolving dataset. A lot of our functions were strongly inspired by [{dplyr}](https://dplyr.tidyverse.org/) but with a giant list object. I was thrilled for our work to be recognised by the [ESA New Open Source Developer](https://www.ecolsoc.org.au/news/awards/inaugural-winner-of-the-ardc-award-for-new-software-developer-announced/) award too.
+
+One challenge for the {austraits} project was the need out-of-the-box solutions for getting data from databases created with the [{traits.build} workflow](https://traitecoevo.github.io/traits.build/). This was a big undertaking, we had to think carefully about which functions should live where and refactored code for greater flexibility and performance. This process taught me a lot about reexport, creating beautiful messaging with [{cli}](https://github.com/r-lib/cli) and using [dplyr::semi_join()](https://dplyr.tidyverse.org/reference/filter-joins.html) which I like to think of it as a cookie-cutter for joining tabular database 🍪
+
+![Project Manager Dr. Lizzy Wenk at our stall at ESA 2024](IMG_5708%202.png){width="50%"}
+
+The AusTraits project had fantastic reception at ESA conferences. Our [cheatsheet for {austraits}](https://github.com/traitecoevo/austraits/blob/master/inst/cheatsheet/austraits-cheatsheet.pdf) and other packages flew off the table! One piece of feedback we consistently received was the need for a more accessible way to explore the database sans code. Over the past couple of months, our team had a lot of fun dreaming and creating a [web interface](https://github.com/traitecoevo/austraits.portal) to the AusTraits database. With my limited Shiny experience, I learned a lot more about declarative programming and leveraging LLM such as Shiny assistant to help the team build our first prototype. It is very much a work-in-progress but its been incredibly satisfying experience.
+
+### Working with big biodiversity data
+
+With my background working with [Atlas of Living Australia](https://www.ala.org.au/) - a biodiversity data aggregator (I like to call it the Google Maps for Australian flora and fauna), I was naturally drawn to projects that involved biodiversity/citizen science data 🗺️🦋🐸🌲
+
+One problem I helped solve was to create [{APCalign}](https://github.com/traitecoevo/APCalign), an R package that tracked the changes in plant names (i.e. taxonomy) and update them accordingly if they are out-of-date. This project was different in that we decided it might also be fun to try out some principles from SCRUM over the course of a month or so . I gotta say, SCRUM was bit strange at first. Academic teams don't map neatly to all the different roles of SCRUM but we did the best we can and often wore multiple hats. Spending a disproportionate time on careful sprint planning was an adjustment...if there is one thing you need to know about academics is that we tend to be meetings-adverse. We rather be *doing the thing*, rather than talking about the thing, however by the end month, we were very impressed how much we achieved. Tasks were ticked off as fast as they were being created. By planning and divvying up tasks *together*, meant we all were on the same page and had a very clear idea on implementation and didn't need to a lot of back and forth. This project taught me the value of being in sync and having open communication with your team and the art of failing gracefully when APIs were down (still trying to refine this one!). 😅
+
+Have you ever been to a new place and thought, "Gee I wonder what sort of plants/bird/\[insert your favourite taxonomic group here\] I can find here?" 🔍 I worked with two keen ecologists and prolific iNaturalists to try solve this problem. We created [{infinitylists}](https://github.com/traitecoevo/infinitylists)l a tool to equip users with a curated list of organisms that you expected to encounter for a given area. The visionary of the project, [Thomas Mesaglio](https://www.google.com/search?gs_ssp=eJzj4tVP1zc0zEkvNjE0KTAyYPTiL8nIz00sVshNLU5Mz8nMBwCbNgpH&q=thomas+mesaglio&rlz=1C5GCEM_enAU948AU948&oq=Thomas+Mesag&gs_lcrp=EgZjaHJvbWUqBwgBEC4YgAQyDAgAECMYJxiABBiKBTIHCAEQLhiABDIGCAIQRRg5MgcIAxAAGO8FMgcIBBAAGO8FMgoIBRAAGIAEGKIEMgcIBhAAGO8F0gEIMjk1MGowajSoAgCwAgA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on) had field tested a number of exisiting tools and all of them fell short in some way or another. This meant that our team had a very a clear picture of we wanted to build. This was my first time creating a Shiny app that worked with large amounts of data without compromising on reactive magic. I learned to harness the power of [Apache parquets](https://arrow.apache.org/docs/index.html) to quickly load data for a specific location.
+
+### Whale of a time
+
+Creating research tools were one of the many highlights, there were other experiences that were worthy of mentioning! 
+
+![My data friend Jenny Richmond and I at the hexsticker wall - posit::conf(2024)](IMG_3484.jpg){width="50%"}
+
+I attended [rstudio::global(2021)](https://cloud.rstudio.com/resources/rstudioglobal-2021/) when I started my job and I couldn't help feeling over my head. Fast forward to having [my talk](https://fontikar.github.io/talks/positconf2023/) accepted for posit::conf(2023) was a major WTF-OMG-is-this-really-happening moment. I was not sure what I wanted to share was worthwhile to a data science audience but was glad to have the opportunity speak about my experience on learning how to write R packages. It was such a valuable experience to go through speaker training and to sharpen my story and finally tell my story virtually. It made me realise, that all achievements should celebrated. I was lucky enough to attend [posit::conf(2024)](http://fontikar.github.io/blog/posit_conf_2024/) in person as an Opportunity Scholar and connect with new data science heroes and expand my nerdy love for R, Quarto and data science.
+
+Attending [useR!2024](https://fontikar.github.io/talks/user2024/) was a dream! I couldn't believe my love for R programming led me to Austria. I had never really comprehended how widely usedR was until this conference (Big pharma...wut!)! I fangirled over the keynote speakers like [Maëlle Salmon](https://www.youtube.com/watch?app=desktop&v=ldko1TPC1aA&ab_channel=useR%21Conference), [Kelly Bodwin](https://www.youtube.com/watch?v=KOQBfC1WPwM&ab_channel=useR%21Conference) and [Hilary Parker](https://hilaryparker.com/) then gave [my lightening talk](https://fontikar.github.io/talks/user2024/) about the importance of being silly and explorative when learning new R skills. A really memorable part of this experience was taking part of R Dev Day. Having zero C programming experience, I was primarily there to learn and try be helpful. I ending up working making the R manuals prettier with CSS (also something I didn't know much about).
+
+![Our little working group at R Dev Day 2024, extra thanks to Hannah Frick for sponsoring snacks](IMG_2842.JPG)
+
+Following on from useR! I was invited to give an extended version of my lightening talk at [WOMBAT](https://wombat2024.numbat.space/) (Workshop Organised by the Monash Business Analytics Team) and to take part in [OceaniaR](https://statsocaus.github.io/oceaniaR-hack/) - a regional hackathon for Australia, New Zealand and Pacific Island communities. It was tricky to expand on my simple idea, but it all worked out in the end and I got to [celebrate the creativity of the wider data science community](https://github.com/fontikar/sillythings). I loved the small format of WOMBAT - workshops preceded the single stream of talks spanning over two days. By the end of the workshop, everyone was well acquainted with each other and were eager to stay in touch.
+
+### What's next?
+
+![Some of our lab went whale watching at one of my favourite spots!](IMG_2363.jpg)
+
+All in all, the past four years has been a wonderful and formative journey. Taking pivots in your career path can be scary, but it is less scary if you do it people that support you through the process. My heart is teaming with gratitude for the folks at the ["Cornster" Lab](https://danielfalster.com/cornsters/). Everyone is so devoted in making a contribution to the world while celebrating each others wins. A big shout out to [Daniel Falster](https://danielfalster.com/), for his never-ending mentorship and gentle reminders to see the forest for the trees. Its always bittersweet to say good bye but this is the familiar dance of academia. In the flurry of fixed termed contracts, close-knit teams and solving problems together, something magical happens.
+
+I am excited for this next chapter at the [Biological Data Science Institute](https://bdsi.anu.edu.au/), Australian National University working with [Emi Tanaka](https://emitanaka.org/) on the [Analytics for Australia Grains Industry 🌾](https://grdc.com.au/research/partnerships-and-initiatives/strategic-partnerships/aagi) project. I've always had three parallel loves; biology, R programming and statistics and I'm excited to foster my curiosity in latter and see where it leads me. Onwards my friends! 🚀
