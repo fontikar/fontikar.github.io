@@ -4,7 +4,7 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "posit::conf(2024)\n\n\n\n\n\n\nconferences\n\n\ncommunity\n\n\n\nIf you told me 15 years ago when I was learning how to program in R that I would be attending posit::conf(2024) - a 3 day conference that celebrates data science and its community, I probably wouldn’t have believed you \n\n\n\n\n\n18 Oct 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "posit::conf(2024)\n\n\n\nconferences\n\ncommunity\n\n\n\nIf you told me 15 years ago when I was learning how to program in R that I would be attending posit::conf(2024) - a 3 day conference that celebrates data science and its community, I probably wouldn’t have believed you\n\n\n\n\n\n18 Oct 2024\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -53,7 +53,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "No matching items"
+    "text": "# install(\"APCalign\")\n# remotes::install_github(\"traitecoevo/austraits\")\n# remotes::install_github(\"traitecoevo/infinitylists\")\n# remotes::install_github(\"fontikar/ohwhaley\")\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks/user2024/index.html",
@@ -74,7 +74,7 @@
     "href": "talks/index.html",
     "title": "Talks",
     "section": "",
-    "text": "Why build silly things in R?\n\n\n\nlearning\n\n\nr package\n\n\n\n\n\n\n\n\n\n\n23 Oct 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy build silly things in R?\n\n\n\nlearning\n\n\nr package\n\n\n\n\n\n\n\n\n\n\n09 Jul 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI’d never thought I’d be a data scientist\n\n\n\ncareer\n\n\n\n\n\n\n\n\n\n\n19 Mar 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nField guide to writing your first R package\n\n\n\nlearning\n\n\nr package\n\n\n\n\n\n\n\n\n\n\n20 Sep 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Why build silly things in R?\n\n\n\nlearning\n\nr package\n\n\n\n\n\n\n\n\n\n\n23 Oct 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy build silly things in R?\n\n\n\nlearning\n\nr package\n\n\n\n\n\n\n\n\n\n\n09 Jul 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nI’d never thought I’d be a data scientist\n\n\n\ncareer\n\n\n\n\n\n\n\n\n\n\n19 Mar 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nField guide to writing your first R package\n\n\n\nlearning\n\nr package\n\n\n\n\n\n\n\n\n\n\n20 Sep 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posit_conf_2024/index.html",
