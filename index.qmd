@@ -6,7 +6,7 @@ about:
   image-shape: round
   links:
     - icon: envelope
-      href: "mailto:f.kar@unsw.edu.au"
+      href: "mailto:fonti.kar@anu.edu.au"
     - icon: mastodon
       href: "https://fosstodon.org/@fontikar"
     - text: "{{< fa face-smile >}}"
@@ -31,7 +31,9 @@ I'm Fonti and I am an evolutionary biologist wearing R developer shoes. I work w
 
 ## Experience
 
-**R Tool Developer** | Jan 2021 - Present  
+**Postdoctoral Research Fellow** | June 2025 [Biological Data Science Institute](https://bdsi.anu.edu.au/) / ANU
+
+**R Tool Builder** | Jan 2021 - May 2025  
 [Falster Lab](https://danielfalster.com/) / UNSW
 
 **Analytics Manager** | Jun 2022 - Present  
