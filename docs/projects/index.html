@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -37,10 +71,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d801ec56ef41a5df713aa3b4cba1a403.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,9 +112,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -182,7 +216,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="biodiversity">biodiversity <span class="quarto-category-count">(5)</span></div><div class="category" data-category="citizen science">citizen science <span class="quarto-category-count">(4)</span></div><div class="category" data-category="plants">plants <span class="quarto-category-count">(3)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="r package">r package <span class="quarto-category-count">(4)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="silly">silly <span class="quarto-category-count">(1)</span></div><div class="category" data-category="taxonomy">taxonomy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="workflow">workflow <span class="quarto-category-count">(3)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -205,250 +239,19 @@ window.Quarto = {
 </header>
 
 
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install("APCalign")</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># remotes::install_github("traitecoevo/austraits")</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># remotes::install_github("traitecoevo/infinitylists")</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># remotes::install_github("fontikar/ohwhaley")</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="plants,taxonomy,r package" data-listing-file-modified-sort="1729411521257" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
-<a href="../projects/apcalign/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../projects/apcalign/APCalign_hex.png" class="thumbnail-image card-img" style="height: 7;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-{APCalign}
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">
-plants
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('taxonomy'); return false;">
-taxonomy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
-r package
-</div>
-</div>
-<div class="card-text listing-description">
-The process of resolving taxon names is necessary when working with biodiversity data. ‘APCalign’ uses the Australian Plant Census (APC) and the Australian Plant Name Index (…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
 
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="plants,citizen science,biodiversity,taxonomy,r package" data-listing-file-modified-sort="1729411559237" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
-<a href="../projects/infinitylists/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../projects/infinitylists/infinitylists_hex.png" class="thumbnail-image card-img" style="height: 7;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-{infinitylists}
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">
-plants
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
-citizen science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
-biodiversity
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('taxonomy'); return false;">
-taxonomy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
-r package
-</div>
-</div>
-<div class="card-text listing-description">
-This Shiny application and R package allows users to extract plant occurrence data from the Atlas of Living Australia and generate a species list for any defined area in…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="plants,biodiversity,r package,shiny" data-listing-file-modified-sort="1729411548140" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<a href="../projects/austraits/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../projects/austraits/austraits_hex.png" class="thumbnail-image card-img" style="height: 7;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-{austraits}
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">
-plants
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
-biodiversity
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
-r package
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
-shiny
-</div>
-</div>
-<div class="card-text listing-description">
-This R package serves as an interface to accessing, wrangling and visualising the AusTraits Traits Database of Australian Plants. The aim is to make it easier for…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="citizen science,biodiversity,quarto,workflow" data-listing-file-modified-sort="1729411538665" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<a href="../projects/ala-labs/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Atlas of Living Australia Labs Blog Post
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
-citizen science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
-biodiversity
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
-quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('workflow'); return false;">
-workflow
-</div>
-</div>
-<div class="card-text listing-description">
-Check out the post here
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="r package,silly" data-listing-file-modified-sort="1729411581775" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
-<a href="../projects/ohwhaley/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-{ohwhaley}
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
-r package
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('silly'); return false;">
-silly
-</div>
-</div>
-<div class="card-text listing-description">
-Bored? Need a pick me up? Say no more. {ohwhaley} is here to provide some whaley gentle entertainment in R.
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="citizen science,biodiversity,quarto,workflow" data-listing-file-modified-sort="1729411570085" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<a href="../projects/spider-hot-spots/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mygalomorphae Spider ‘Hotspots’ in Australia
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
-citizen science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
-biodiversity
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
-quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('workflow'); return false;">
-workflow
-</div>
-</div>
-<div class="card-text listing-description">
-Check out the quarto book
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="citizen science,biodiversity,quarto,workflow" data-listing-file-modified-sort="1729411605423" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<a href="../projects/data-cleaning-book/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Atlas of Living Australia Data Cleaning Book
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
-citizen science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
-biodiversity
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
-quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('workflow'); return false;">
-workflow
-</div>
-</div>
-<div class="card-text listing-description">
-Check out the book here
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -536,8 +339,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -648,7 +449,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

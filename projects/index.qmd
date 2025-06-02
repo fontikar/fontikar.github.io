@@ -8,16 +8,14 @@ listing:
 ---
 
 ```{r}
-library(hexsession)
-
 
 ```
 
 ```{r}
-install("APCalign")
-remotes::install_github("traitecoevo/austraits")
-remotes::install_github("traitecoevo/infinitylists")
-remotes::install_github("fontikar/ohwhaley")
+# install("APCalign")
+# remotes::install_github("traitecoevo/austraits")
+# remotes::install_github("traitecoevo/infinitylists")
+# remotes::install_github("fontikar/ohwhaley")
 
 ```
 
