@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -182,7 +182,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="biodiversity">biodiversity <span class="quarto-category-count">(5)</span></div><div class="category" data-category="citizen science">citizen science <span class="quarto-category-count">(4)</span></div><div class="category" data-category="plants">plants <span class="quarto-category-count">(3)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(3)</span></div><div class="category" data-category="r package">r package <span class="quarto-category-count">(4)</span></div><div class="category" data-category="shiny">shiny <span class="quarto-category-count">(1)</span></div><div class="category" data-category="silly">silly <span class="quarto-category-count">(1)</span></div><div class="category" data-category="taxonomy">taxonomy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="workflow">workflow <span class="quarto-category-count">(3)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -211,7 +211,244 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="plants,taxonomy,r package" data-listing-file-modified-sort="1729411521257" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<a href="../projects/apcalign/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/apcalign/APCalign_hex.png" class="thumbnail-image card-img" style="height: 7;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+{APCalign}
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">
+plants
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('taxonomy'); return false;">
+taxonomy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
+r package
+</div>
+</div>
+<div class="card-text listing-description">
+The process of resolving taxon names is necessary when working with biodiversity data. ‘APCalign’ uses the Australian Plant Census (APC) and the Australian Plant Name Index (…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="plants,citizen science,biodiversity,taxonomy,r package" data-listing-file-modified-sort="1729411559237" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
+<a href="../projects/infinitylists/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/infinitylists/infinitylists_hex.png" class="thumbnail-image card-img" style="height: 7;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+{infinitylists}
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">
+plants
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
+citizen science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
+biodiversity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('taxonomy'); return false;">
+taxonomy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
+r package
+</div>
+</div>
+<div class="card-text listing-description">
+This Shiny application and R package allows users to extract plant occurrence data from the Atlas of Living Australia and generate a species list for any defined area in…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="plants,biodiversity,r package,shiny" data-listing-file-modified-sort="1729411548140" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<a href="../projects/austraits/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projects/austraits/austraits_hex.png" class="thumbnail-image card-img" style="height: 7;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+{austraits}
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('plants'); return false;">
+plants
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
+biodiversity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
+r package
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('shiny'); return false;">
+shiny
+</div>
+</div>
+<div class="card-text listing-description">
+This R package serves as an interface to accessing, wrangling and visualising the AusTraits Traits Database of Australian Plants. The aim is to make it easier for…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="citizen science,biodiversity,quarto,workflow" data-listing-file-modified-sort="1729411538665" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="../projects/ala-labs/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Atlas of Living Australia Labs Blog Post
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
+citizen science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
+biodiversity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('workflow'); return false;">
+workflow
+</div>
+</div>
+<div class="card-text listing-description">
+Check out the post here
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="r package,silly" data-listing-file-modified-sort="1729411581775" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<a href="../projects/ohwhaley/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+{ohwhaley}
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('r package'); return false;">
+r package
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('silly'); return false;">
+silly
+</div>
+</div>
+<div class="card-text listing-description">
+Bored? Need a pick me up? Say no more. {ohwhaley} is here to provide some whaley gentle entertainment in R.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="citizen science,biodiversity,quarto,workflow" data-listing-file-modified-sort="1729411570085" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="../projects/spider-hot-spots/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mygalomorphae Spider ‘Hotspots’ in Australia
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
+citizen science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
+biodiversity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('workflow'); return false;">
+workflow
+</div>
+</div>
+<div class="card-text listing-description">
+Check out the quarto book
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="citizen science,biodiversity,quarto,workflow" data-listing-file-modified-sort="1729411605423" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="../projects/data-cleaning-book/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 7;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Atlas of Living Australia Data Cleaning Book
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('citizen science'); return false;">
+citizen science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('biodiversity'); return false;">
+biodiversity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
+quarto
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('workflow'); return false;">
+workflow
+</div>
+</div>
+<div class="card-text listing-description">
+Check out the book here
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items

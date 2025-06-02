@@ -7,7 +7,15 @@
   },
   {
     "listing": "/projects/index.html",
-    "items": []
+    "items": [
+      "/projects/apcalign/index.html",
+      "/projects/infinitylists/index.html",
+      "/projects/austraits/index.html",
+      "/projects/ala-labs/index.html",
+      "/projects/ohwhaley/index.html",
+      "/projects/spider-hot-spots/index.html",
+      "/projects/data-cleaning-book/index.html"
+    ]
   },
   {
     "listing": "/talks/index.html",
