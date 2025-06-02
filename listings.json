@@ -1,8 +1,11 @@
 [
   {
-    "listing": "/blog/index.html",
+    "listing": "/talks/index.html",
     "items": [
-      "/blog/posit_conf_2024/index.html"
+      "/talks/wombat2024/index.html",
+      "/talks/user2024/index.html",
+      "/talks/wids2024/index.html",
+      "/talks/positconf2023/index.html"
     ]
   },
   {
@@ -10,12 +13,10 @@
     "items": []
   },
   {
-    "listing": "/talks/index.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/talks/wombat2024/index.html",
-      "/talks/user2024/index.html",
-      "/talks/wids2024/index.html",
-      "/talks/positconf2023/index.html"
+      "/blog/farewell-unsw/index.html",
+      "/blog/posit_conf_2024/index.html"
     ]
   }
 ]

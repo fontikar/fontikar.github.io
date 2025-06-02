@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fontikar.github.io/blog/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fontikar.github.io/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fontikar.github.io/talks/wids2024/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.994Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fontikar.github.io/talks/wombat2024/index.html</loc>
-    <lastmod>2025-06-02T05:57:13.024Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fontikar.github.io/projects/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fontikar.github.io/talks/user2024/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.943Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fontikar.github.io/talks/positconf2023/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://fontikar.github.io/talks/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.924Z</lastmod>
+    <loc>https://fontikar.github.io/blog/farewell-unsw/index.html</loc>
+    <lastmod>2025-06-02T08:39:50.682Z</lastmod>
   </url>
   <url>
     <loc>https://fontikar.github.io/blog/posit_conf_2024/index.html</loc>
-    <lastmod>2025-06-02T05:57:12.645Z</lastmod>
+    <lastmod>2025-06-02T08:39:50.715Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/talks/index.html</loc>
+    <lastmod>2025-06-02T08:39:51.204Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/talks/positconf2023/index.html</loc>
+    <lastmod>2025-06-02T08:39:51.204Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/talks/user2024/index.html</loc>
+    <lastmod>2025-06-02T08:39:51.234Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/projects/index.html</loc>
+    <lastmod>2025-06-02T08:39:51.198Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/talks/wombat2024/index.html</loc>
+    <lastmod>2025-06-02T08:39:51.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/talks/wids2024/index.html</loc>
+    <lastmod>2025-06-02T08:39:51.309Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/index.html</loc>
+    <lastmod>2025-06-02T08:39:51.186Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fontikar.github.io/blog/index.html</loc>
+    <lastmod>2025-06-02T08:39:50.683Z</lastmod>
   </url>
 </urlset>
